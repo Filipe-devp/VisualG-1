@@ -1,2 +1,3 @@
 # VisualG
-Aqui vão os códigos da matéria de Lógica de Programação
+Aqui irei colocar todos os códigos praticados na **UC09 - Lógica de Programação**, que estudei no Senac VPR.
+
