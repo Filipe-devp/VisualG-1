@@ -1,11 +1,11 @@
-Algoritmo "Saudação"
+Algoritmo "SaudaÃ§Ã£o"
 
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 nome, sobrenome: caractere
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 escreva("Digite o seu nome: ")
 leia(nome)
 
