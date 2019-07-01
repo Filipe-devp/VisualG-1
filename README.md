@@ -123,3 +123,6 @@ de valores gerados é de 0 a 100 inclusive, mas pode ser modificada. Para a gera
 É útil para a análise de eficiência (por exemplo, nos métodos de ordenação).
 - **Pilha de ativação**: Exibe a pilha de subprogramas ativados num dado momento. Convém utilizar este comando em conjunto com breakpoints ou com a execução passo a passo.
 
+- **Linguagens**: Permite a tradução automático do pseudocódigo presente no editor para outras linguagens de programação. Atualmente, apenas a tradução para Pascal está implementada, mas ainda em fase de testes.
+- **Ferramentas**: Neste menu, é possível configurar algumas opções do VisuAlg: cores e tipos de letras na exibição do pseudocódigo, número de espaços para indentação automática, etc.
+- **Ajuda**: Entre outras coisas, possibilita acesso às páginas de ajuda e às informações sobre o VisuAlg.
