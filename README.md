@@ -140,16 +140,21 @@ reconhecimento de palavras-chave e nomes de variáveis.
 
 #### Formato Básico do Pseudocódigo e Inclusão de Comentários
 
-´´´
+
 algoritmo "Nome_do_meu_algoritmo"
-// Função :
-// Autor :
-// Data :
+
+// Função : Treinamento na Lógica de Programação
+// Autor : Adriano Leite da Silva
+// Data : 01/07/2018
+
+Var
 // Seção de Declarações
+
 inicio
 // Seção de Comandos
+
 fimalgoritmo
-´´´
+
 
 
 
