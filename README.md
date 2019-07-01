@@ -1,5 +1,6 @@
 # VisualG
 ![VisualG_Version](https://img.shields.io/badge/VisualG-3.0-red.svg)
+![Lógica](https://img.shields.io/badge/L%C3%B3gica-de%20Programa%C3%A7%C3%A3o-blue.svg)
 
 Aqui irei colocar todos os códigos praticados na **UC09 - Lógica de Programação**, que estou desenvolvendo com os alunos do Técnico em Informática.
 
