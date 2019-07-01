@@ -140,21 +140,21 @@ reconhecimento de palavras-chave e nomes de variáveis.
 
 #### Formato Básico do Pseudocódigo e Inclusão de Comentários
 
+![image](https://user-images.githubusercontent.com/6373438/60470612-71545f80-9c37-11e9-94f3-f42f6feb38b5.png)
 
-algoritmo "Nome_do_meu_algoritmo"
+A primeira linha é composta pela palavra-chave algoritmo seguida do seu nome delimitado por aspas duplas. Este nome será usado como título nas janelas de leitura de dados (nas futuras versões do VisuAlg, talvez utilizemos este dado de outras formas). A seção que se segue é a de declaração de variáveis, que termina com a linha que contém a palavra-chave inicio. Deste ponto em diante está a seção de comandos, que continua até a linha em que se encontre a palavra-chave fimalgoritmo. Esta última linha marca o final do pseudocódigo: todo texto existente a partir dela é ignorado pelo interpretador.
 
-// Função : Treinamento na Lógica de Programação
-// Autor : Adriano Leite da Silva
-// Data : 01/07/2018
+O VisuAlg permite a inclusão de comentários: qualquer texto precedido de "//" é ignorado, até se atingir o final da sua linha. Por este motivo, os comentários não se estendem por mais de uma linha: quando se deseja escrever comentários mais longos, que ocupem várias linhas, cada uma delas deverá começar por "//".
 
-Var
-// Seção de Declarações
+#### Tipos de Dados
 
-inicio
-// Seção de Comandos
+O VisuAlg prevê quatro tipos de dados: inteiro, real, cadeia de caracteres e lógico (ou booleano). As palavras-chave
+que os definem são as seguintes (observe que elas não têm acentuação):
+- **inteiro**: define variáveis numéricas do tipo inteiro, ou seja, sem casas decimais.
+- **real**: define variáveis numéricas do tipo real, ou seja, com casas decimais.
+- **caractere**: define variáveis do tipo string, ou seja, cadeia de caracteres.
+- **logico**: define variáveis do tipo booleano, ou seja, com valor VERDADEIRO ou FALSO.
 
-fimalgoritmo
-
-
-
+O VisuAlg permite também a declaração de variáveis estruturadas através da palavra-chave vetor, como será
+explicado a seguir.
 
