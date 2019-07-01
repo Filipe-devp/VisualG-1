@@ -5,12 +5,12 @@ Aqui irei colocar todos os códigos praticados na **UC09 - Lógica de Programaç
 
 O Intuito deste material é servir como uma referência para o aprendizado de lógica.
 
-### A Tela Principal do VisuAlg
+## A Tela Principal do VisuAlg
 ![image](https://user-images.githubusercontent.com/6373438/60443652-12202c00-9bf2-11e9-947c-614f8ac883f0.png)
 
 A tela do VisuAlg compõe-se da barra de tarefas, do editor de textos (que toma toda a sua metade superior), do quadro de variáveis (no lado esquerdo da metade inferior), do simulador de saída (no correspondente lado direito) e da barra de status. Quando o programa é carregado, já apresenta no editor um "esqueleto" de pseudocódigo, com a intenção de poupar trabalho ao usuário e de mostrar o formato básico que deve ser seguido. Explicaremos a seguir cada  componente dainterface do VisuAlg.
 
-### A Barra de Tarefas
+## A Barra de Tarefas
 Contém os comandos mais utilizados no VisuAlg (estes comandos também podem ser acessados pelo menu ou por atalhos no teclado).
 
 ![image](https://user-images.githubusercontent.com/6373438/60469491-3bad7780-9c33-11e9-9d76-1712cdb7ccd8.png)
@@ -75,3 +75,29 @@ executada. É útil para a análise de eficiência (por exemplo, nos métodos de
 Mostrar pilha de ativação (Ctrl-F3): Exibe a pilha de subprogramas ativados num dado momento. Convém utilizar
 este comando em conjunto com breakpoints ou com a execução passo a passo.
 - **Ajuda (F1)**: Possibilita acesso às páginas de ajuda e às informações sobre o VisuAlg. 
+
+### Quadro de Variáveis
+É formado por uma grade na qual são mostrados o escopo de cada variável (se for do programa principal, será global; se for local, será apresentado o nome do subprograma onde foi declarada), seus nomes (também com os índices, nos casos em que sejam vetores), seu tipo ("I" para inteiro, "R" para real, "C" para caractere e "L" para lógico) e o seu valor corrente. A versão atual do VisuAlg permite a visualização de até 500 variáveis (contando individualmente cada elemento dos vetores).
+
+### A Barra de Status
+Situada na parte inferior da tela, esta barra contém dois painéis: o primeiro mostra a linha e a coluna onde o cursor está, e o segundo mostra a palavra Modificado no caso em que o pseudocódigo tenha sido alterado desde que foi carregado ou salvo pela última vez. Nesta barra, há ainda um terceiro painel disponível, que ainda não tem um uso específico na atual versão. 
+
+## Menu do VisualG
+
+- **Arquivo**: Possui os comandos para se abrir, salvar e imprimir algoritmos:
+- **Novo**: Cria um novo "esqueleto" de pseudocódigo, substituindo o texto existente no editor. Se este texto anterior tiver
+sido modificado, o VisuAlg pedirá sua confirmação para salvá-lo antes que seja sobreposto.
+- **Abrir**: Abre o texto de um pseudocódigo anteriormente gravado, substituindo o texto existente no editor. Se este tiver
+sido modificado, o VisuAlg pedirá sua confirmação para salvá-lo antes que seja sobreposto.
+- **Salvar**: Salva imediatamente o texto presente no editor. Caso seja a primeira vez que um novo texto é gravado, o
+VisuAlg pedirá o nome do arquivo e sua localização.
+- **Salvar como**: Permite salvar o texto presente no editor exibindo antes uma janela na qual se pode escolher o nome do
+arquivo e sua localização.
+- **Enviar por email**: Permite o envio por email do texto presente no editor.
+Imprimir: Permite a impressão do algoritmo corrente, mostrando antes a janela de configuração de impressão (o
+correspondente botão da barra de tarefas imprime imediatamente o texto do pseudocódigo na impressora padrão).
+- **Sair**: Abandona o VisuAlg.
+Além destes comandos, há ainda a lista dos 5 últimos algoritmos utilizados, que podem ser abertos diretamente ao se
+escolher o seu nome.
+- **Editar**: Além dos conhecidos comandos de um editor de texto (copiar, cortar, colar, desfazer, refazer, selecionar tudo,
+localizar, localizar de novo, substituir), há também as seguintes opções:
