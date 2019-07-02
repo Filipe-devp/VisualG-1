@@ -9,7 +9,7 @@ O Intuito deste material é servir como uma referência para o aprendizado de l�
 ## A Tela Principal do VisuAlg
 ![image](https://user-images.githubusercontent.com/6373438/60443652-12202c00-9bf2-11e9-947c-614f8ac883f0.png)
 
-A tela do VisuAlg compõe-se da barra de tarefas, do editor de textos (que toma toda a sua metade superior), do quadro de variáveis (no lado esquerdo da metade inferior), do simulador de saída (no correspondente lado direito) e da barra de status. Quando o programa é carregado, já apresenta no editor um "esqueleto" de pseudocódigo, com a intenção de poupar trabalho ao usuário e de mostrar o formato básico que deve ser seguido. Explicaremos a seguir cada  componente dainterface do VisuAlg.
+A tela do VisuAlg compõe-se da barra de tarefas, do editor de textos (que toma toda a sua metade superior), do quadro de variáveis (no lado esquerdo da metade inferior), do simulador de saída (no correspondente lado direito) e da barra de status. Quando o programa é carregado, já apresenta no editor um "esqueleto" de pseudocódigo, com a intenção de poupar trabalho ao usuário e de mostrar o formato básico que deve ser seguido. Explicaremos a seguir cada  componente da interface do VisuAlg.
 
 ## A Barra de Tarefas
 Contém os comandos mais utilizados no VisuAlg (estes comandos também podem ser acessados pelo menu ou por atalhos no teclado).
@@ -35,19 +35,10 @@ nome do arquivo é .inc.
 - **Refazer (Shift-Ctrl-Z)**: Refaz último comando desfeito.
 - **Localizar (Ctrl-L)**: Localiza no texto presente no editor determinada palavra especificada.
 - **Substituir (Ctrl-U)**: Localiza no texto presente no editor determinada palavra especificada, substituindo-a por outra.
-- **Corrigir Indentação (Ctrl-G)**: Corrige automaticamente a indentação (ou tabulação) do pseudocódigo, tabulando cada
-comando interno com espaços à esquerda.
-- **Numerar linhas**: Ativa ou desativa a exibição dos números das linhas na área à esquerda do editor. A linha e a coluna
-do editor em que o cursor está em um determinado momento também são mostradas na barra de status (parte inferior
-da tela). Por motivos técnicos, esta opção é automaticamente desativada durante a execução do pseudocódigo, mas
-volta a ser ativada logo em seguida.
-Mostrar variáveis modificadas: Ativa ou desativa a exibição da variável que está sendo modificada. Como o número
-de variáveis pode ser grande, muitas podem estar fora da janela de visualização; quando esta característica está
-ativada, o VisuAlg rola a grade de exibição de modo que cada variável fique visível no momento em está sendo
-modificada. Este recurso é especialmente útil quando se executa um pseudocódigo passo a passo. Por questões de
-desempenho, a configuração padrão desta característica é desativada, quando o pseudocódigo está sendo executado
-automaticamente. No entanto, basta clicar este botão para executá-lo automaticamente com a exibição ativada. No
-final da execução, a configuração volta a ser desativada. 
+- **Corrigir Indentação (Ctrl-G)**: Corrige automaticamente a indentação (ou tabulação) do pseudocódigo, tabulando cada comando interno com espaços à esquerda.
+- **Numerar linhas**: Ativa ou desativa a exibição dos números das linhas na área à esquerda do editor. A linha e a coluna do editor em que o cursor está em um determinado momento também são mostradas na barra de status (parte inferior
+da tela). Por motivos técnicos, esta opção é automaticamente desativada durante a execução do pseudocódigo, mas volta a ser ativada logo em seguida.
+- **Mostrar variáveis modificadas**: Ativa ou desativa a exibição da variável que está sendo modificada. Como o número de variáveis pode ser grande, muitas podem estar fora da janela de visualização; quando esta característica está ativada, o VisuAlg rola a grade de exibição de modo que cada variável fique visível no momento em está sendo modificada. Este recurso é especialmente útil quando se executa um pseudocódigo passo a passo. Por questões de desempenho, a configuração padrão desta característica é desativada, quando o pseudocódigo está sendo executado automaticamente. No entanto, basta clicar este botão para executá-lo automaticamente com a exibição ativada. No final da execução, a configuração volta a ser desativada. 
 
 ![image](https://user-images.githubusercontent.com/6373438/60469672-048b9600-9c34-11e9-8ff5-7352ad896ebc.png)
 
