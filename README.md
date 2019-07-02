@@ -8,3 +8,9 @@ O Intuito deste material é servir como uma referência para o aprendizado de l�
 
 ## A Tela Principal do VisualG
 ![image](https://user-images.githubusercontent.com/6373438/60443652-12202c00-9bf2-11e9-947c-614f8ac883f0.png)
+
+## Os menus do VisualG
+
+- Arquivo
+- Editar
+- Manutenção
