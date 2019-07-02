@@ -145,7 +145,3 @@ que os definem são as seguintes (observe que elas não têm acentuação):
 - **real**: define variáveis numéricas do tipo real, ou seja, com casas decimais.
 - **caractere**: define variáveis do tipo string, ou seja, cadeia de caracteres.
 - **logico**: define variáveis do tipo booleano, ou seja, com valor VERDADEIRO ou FALSO.
-
-O VisuAlg permite também a declaração de variáveis estruturadas através da palavra-chave vetor, como será
-explicado a seguir.
-
